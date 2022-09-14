@@ -57,7 +57,7 @@ display:flex;
 align-items: center;
 justify-content: center;
 font-size: 10rem;
-background-color:aquamarine;
+background-color: rgb(65, 129, 108);
 width:100%;
 
 
@@ -71,12 +71,43 @@ width:100%;
     border: 1px solid black;
     margin:1rem;
     padding:1rem;
+	background-color: aquamarine;
    
 }
 
-.content{
-background-color: rgb(65, 114, 114);
-width: 70%;
-height:70vh;
+#content{
+background-color: rgb(65, 129, 108);
+width: 100%;
+display:flex;
+justify-content: center;
+align-items: center;
+flex-flow: column;
+
 
 }
+
+.div1{
+background-color: aquamarine;
+width: 30%;
+height:10rem;
+border: 3px solid black;
+padding:2rem;
+margin:2rem;
+text-align: center;
+}
+
+
+
+body{
+	background-color:rgb(65, 129, 108);
+
+}
+
+#content-nested{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column;
+	
+	
+	}
