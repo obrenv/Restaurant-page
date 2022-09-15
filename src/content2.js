@@ -2,8 +2,9 @@ export default function addSecondContent(){
   let placeHolder = document.getElementById("content");
 
 let div2 = document.createElement("div");
-div2.classList.add("div1");
 div2.id = "content-nested";
+div2.classList.add("div1");
+
 placeHolder.appendChild(div2);
 
 
